@@ -37,7 +37,7 @@ def message_received(client, server, message):
 ### 1. how to use
 1. 使用前記得允許使用電腦鏡頭錄影
 
-2. 整體流程：鏡頭進行視訊功能，每 20 毫秒 canvas 繪製一張圖以顯示給前端使用者(canvasDraw)且生成 canvas 文字框，每 20 張 canvas 即傳送一張圖給 Server 進行處理(ImageLimit、sendMessage)
+2. 整體流程：鏡頭進行視訊功能，每 20 毫秒會以 canvas 繪製一張截圖以顯示給前端使用者(canvasDraw)並生成 canvas 文字框，每 20 張 canvas 即傳送一張圖片資料給 Server 進行處理(ImageLimit、sendMessage)
 
 3. 修改參數：
 -  websocket設定需與 Server port(5000) 一致
