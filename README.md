@@ -1,0 +1,2 @@
+# screenshot_backend
+一個簡易的websocket server，用於將前端的視訊影像截圖並自動傳送至後端，以進行後續處理
