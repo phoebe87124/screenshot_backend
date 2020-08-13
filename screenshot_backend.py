@@ -21,7 +21,7 @@ def message_received(client, server, message):
     t = str(time.time())[:12]
     uni_name = ('').join(t.split('.'))
     
-    # save image send by the client
+    # save image sent by the client
     path = "" # put the directory path here 
     with open(path + "myfile" + uni_name + ".jpg", "wb") as f:
         img_bytes = base64.urlsafe_b64decode(message[23:])
